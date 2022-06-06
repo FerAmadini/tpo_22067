@@ -1,0 +1,406 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(136,12,12,1) 50%, rgba(163,0,50,1) 100%);
+    height: 100%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  
+}
+
+#logo img{
+    width: 110px;
+    height: 60px;
+    float: left;
+    border-radius: 1em;
+}
+
+
+#cuenta-atras{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.247);
+    border-top: 1px solid rgba(163, 163, 163, 0.247);
+}
+
+#cuenta-atras p{
+    padding-top: 10px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.507);
+    font-size: x-large;
+}
+
+
+.centrado {
+    margin: 0 auto;
+    padding: 0 .8;
+}
+
+.centrado h1{
+    color: rgba(240, 240, 240, 0.664);
+    margin: 10px 0 20px 0px;
+    float: none;
+    text-align: center;
+}
+
+
+.tarjeta a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.tarjeta a:hover {
+    box-shadow: 3px 3px 8px rgb(109, 106, 106);
+}
+
+.tarjeta-content {
+    padding: 1em;
+}
+
+.tarjeta-content h2 {
+    margin-top: 0;
+    margin-bottom:  .5em;
+    font-weight: normal;
+    
+}
+
+.tarjeta-content p {
+    font-size: 95%;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.tarjeta {
+    background: hsla(0, 0%, 100%, 0.103);
+    margin-bottom: 2em;
+    width: 33%;
+    word-wrap: break-word;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+/*Botonera*/
+
+.menu-section{
+    padding-bottom:  2em;
+    margin-bottom:  2em;
+    border-bottom: 1px solid rgb(0, 0%, 0%);
+}
+
+.menu-simple-menu ul{
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.250);
+}
+
+.menu-simple-menu li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1.1em 1em;
+}
+
+.menu-simple-menu li a:hover{
+    background: rgba(148, 0, 0, 0.250);
+}
+
+.menu-simple-menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-simple-menu li{
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 52em) {
+    .centrado {
+        margin: 0 auto;
+        padding: 0 .8;
+        min-width: 52em;
+    }
+}
+
+/*Footer*/
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    background-color: rgba(85, 85, 85, 0.493);
+    color: #bbb;
+    line-height: 1.5;
+}
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+a:hover {
+    text-decoration: underline;
+}
+.ft-title {
+    color: #fff;
+    font-family: ’Merriweather’, serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+
+
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+}
+
+@media only screen and (min-width: 29.8125rem) {
+    .ft-main {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+input[type="submit"] {
+    background-color: #00d1884d;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid; 
+    padding-top: 1.25rem;
+}
+
+.ft-social-list img {
+    width: 32px;
+    opacity: 75%;
+}
+
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
+
+
+
+.container h2{
+    color: rgba(255, 255, 255, 0.795);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.panel-title{
+    background: rgb(138,0,24);
+    background: linear-gradient(90deg, rgba(138,0,24,0.500) 0%, rgba(255,97,97,0.10407913165266103) 50%, rgba(255,255,255,0) 100%);
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#collapse1 {
+    background: rgba(0, 0, 0, 0.250);
+
+}
+
+
+.panel-title a{
+    color: rgb(255, 255, 255);
+    
+}
+
+.panel-title a:hover{
+    text-decoration: none;
+    color:rgba(39, 0, 5, 0.815);
+}
+
+.partidos img{
+    width: 48px;
+}
+
+.partidos p{
+    font-size: smaller;
+}
+
+.partidos{
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: none;
+
+  }
+
+.list-group li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.sum_cont_banner_sec_3{
+    padding: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sum_cont_banner_sec_3 .row{
+    background: hsla(0, 0%, 100%, 0.103);
+    color: #fff;
+    padding: 2%;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+.sum_cont_img{
+    padding: 2%;
+}
+
+.col-md-4 a{
+    background-color: rgb(255, 255, 255);
+    color: rgba(119, 0, 0, 0.733);
+    text-decoration: none;
+    font-weight: bold;
+    border:0;
+
+}
+
+.col-md-4 a:hover{
+    
+    background-color: rgba(139, 0, 0, 0.151);
+    border:0;
+}
+
+.titulo h1{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+#contacto{
+    width: 450px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    
+}
+
+ #contacto h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#contacto input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+#contacto textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: rgba(0, 0, 0, 0.250);
+    color:rgb(255, 255, 255);
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 480px){
+    #contacto{
+        width: 100%;
+    }
+}
